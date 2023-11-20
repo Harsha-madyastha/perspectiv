@@ -281,6 +281,7 @@ a:hover {
     width: 100%;
     display: block;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add a subtle shadow effect */
 }
 
 .portfoliocontainer img {
@@ -544,10 +545,25 @@ div.rightfooter:hover p {
 
 .projheader {
     height: 100vh;
-    background-image: url('../img/alberiproj.jpg');
+    background-image: url('../img/portfolio/front\ pic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.projheader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3); /* Adjust the alpha (fourth parameter) for opacity */
+}
+
+.projheader nav .title {
+    color: white; /* Set the font color to white */
 }
 
 .projectslistcontainer {
@@ -1356,8 +1372,8 @@ strong {
 
 .contactheader {
     height: 100vh;
-    background-image: url('../img/ContattoII.jpg');
-    background-size: cover;
+    background-image: url('../img/contact_pic.jpg');
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -1407,7 +1423,7 @@ strong {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    opacity: 0.7; /* Adjust the opacity as needed */
+    opacity: 0.8; /* Adjust the opacity as needed */
     z-index: -1;
 }
 
