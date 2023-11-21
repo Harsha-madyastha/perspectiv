@@ -469,9 +469,11 @@ div.containerfooterright {
     overflow: hidden;
 }
 .panoramifooter {
-    background-image: url('../img/Panoramicover.jpg');
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/Harsha.jpeg');
     background-size: cover;
     background-position: center;
+    color: white;
 }
 .rightfooter {
     display: flex;
@@ -486,12 +488,17 @@ div.containerfooterright {
     overflow: hidden;
 }
 .ipsfooter {
-    background-image: url('../img/Ipscover.jpg');
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/hohenzollern\ castle.jpg');
     background-size: cover;
     background-position: center;
+    color: white; /* Set the font color to white or any color that contrasts with the background */
 }
+
+/* Add additional styling as needed */
+
 .esclusionifooter{
-    background-image: url('../img/ritagli/ChiaraCividale.jpg');
+    background-image:url('../img/contact_pic.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -1332,10 +1339,6 @@ strong {
 
 }
 
-
-
-
-
 @media (max-width: 419.98px) {
     .h1proj {
         font-size: 12vw;
@@ -1372,8 +1375,8 @@ strong {
 
 .contactheader {
     height: 100vh;
-    background-image: url('../img/contact_pic.jpg');
-    background-size: contain;
+    background-image: url('../img/Hallstatt2.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
