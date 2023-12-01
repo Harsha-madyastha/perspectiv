@@ -566,12 +566,10 @@ div.rightfooter:hover p {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.3); /* Adjust the alpha (fourth parameter) for opacity */
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
 }
 
-.projheader nav .title {
-    color: white; /* Set the font color to white */
-}
 
 .projectslistcontainer {
     width: 100%;
