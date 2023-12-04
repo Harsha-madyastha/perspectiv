@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     margin: 0% !important;
     padding: 0% !important;
     font-family: 'Cormorant Garamond', serif;    
@@ -248,6 +248,7 @@ a:hover {
     font-size: 4vw;
     font-weight: 300;
     letter-spacing: 0.1em;
+    background-color:#ffffff;
 }
 
 .title_lines:before, .title_lines:after {
@@ -268,6 +269,7 @@ a:hover {
     position: relative;
     column-count: 3;
     padding: 0% 10% 0% 10%;
+    background-color:#ffffff; 
 }
 
 .portfolioitem {
@@ -288,6 +290,20 @@ a:hover {
     width: 100%;
     display: block;
 }
+
+.fullscreen-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    cursor: pointer;
+  }
+  
 
 .caption {
     position: relative;
