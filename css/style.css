@@ -247,8 +247,7 @@ a:hover {
 .title_lines h2 {
     font-size: 4vw;
     font-weight: 300;
-    letter-spacing: 0.1em;
-    background-color:#ffffff;
+    letter-spacing: 0.15em;
 }
 
 .title_lines:before, .title_lines:after {
@@ -267,21 +266,20 @@ a:hover {
 }
 .portfoliocontainer {
     position: relative;
-    column-count: 3;
+    column-count: 2;
     padding: 0% 10% 0% 10%;
-    background-color:#ffffff; 
 }
 
 .portfolioitem {
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 15px; 
     break-inside: avoid;
 }
 
 .portfolioimage {
     position: relative;
     width: 100%;
-    display: block;
+    /* display: block; */
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
 }
@@ -303,8 +301,7 @@ a:hover {
     z-index: 9999;
     cursor: pointer;
   }
-  
-
+/* 
 .caption {
     position: relative;
     width: 100%;
@@ -320,13 +317,13 @@ a:hover {
     font-size: 14px;
     font-weight: bold;
      /* Make the font italic */
-}
+/* } */
 
 .device {
     color: black; /* Adjust text color as needed */
     font-size: 14px; /* Adjust font size as needed */
     font-style: italic;/* Adjust font size as needed */
-}
+} */
 
 
 footer {
