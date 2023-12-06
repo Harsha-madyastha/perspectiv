@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://harsha-madyastha.github.io/perspectiv/sitemap.xml
