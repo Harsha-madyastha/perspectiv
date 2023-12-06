@@ -301,6 +301,7 @@ a:hover {
     z-index: 9999;
     cursor: pointer;
   }
+  
 /* 
 .caption {
     position: relative;
@@ -313,16 +314,15 @@ a:hover {
 }
 
 .location {
-    color: black; /* Adjust text color as needed */
+    color: black; 
     font-size: 14px;
     font-weight: bold;
-     /* Make the font italic */
-/* } */
+}
 
 .device {
-    color: black; /* Adjust text color as needed */
-    font-size: 14px; /* Adjust font size as needed */
-    font-style: italic;/* Adjust font size as needed */
+    color: black; 
+    font-size: 14px; 
+    font-style: italic;
 } */
 
 
